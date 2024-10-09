@@ -46,3 +46,4 @@ The solution includes:
 ## Conclusion
 
 This project showcases the implementation of **Amazon CloudFront** with a resilient multi-origin architecture, ensuring high availability and optimal content delivery performance.
+![Screenshot 2024-04-12 191727](https://github.com/user-attachments/assets/da69e446-85c4-408a-bc58-da0a3c781947)
