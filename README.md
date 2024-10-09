@@ -1,4 +1,3 @@
-
 # AWS CloudFront with Multiple Origins and Failover
 
 This project demonstrates the use of **Amazon CloudFront** to deliver content from multiple origins with failover capabilities. The architecture is designed to ensure high availability and fault tolerance, with requests automatically routed to a backup origin in case the primary origin fails.
@@ -6,6 +5,8 @@ This project demonstrates the use of **Amazon CloudFront** to deliver content fr
 ## Project Overview
 
 In this project, I have configured an **Amazon CloudFront distribution** with multiple origins to enhance content delivery reliability. The key feature of this setup is failover between the primary and secondary origin, ensuring continuous availability of web assets.
+
+You can view the project details [here](https://awsportfolio.sila.studio/project/cloudfront-with-multiple-origins/).
 
 This project was completed as part of the **Digital Cloud Training** bootcamp, where I gained hands-on experience in designing and implementing cloud architectures using AWS services.
 
@@ -22,8 +23,6 @@ The solution includes:
 2. **Amazon S3**: Serves as the primary origin for delivering static assets.
 3. **Amazon EC2**: Configured as the secondary origin to host dynamic content.
 4. **Failover Configuration**: If the primary origin (S3) is unavailable, CloudFront automatically routes requests to the secondary origin (EC2).
-
-
 
 ## AWS Services Used
 - **Amazon CloudFront**: For delivering content globally with low latency.
@@ -48,4 +47,4 @@ The solution includes:
 ## Conclusion
 
 This project showcases the implementation of **Amazon CloudFront** with a resilient multi-origin architecture, ensuring high availability and optimal content delivery performance.
-![Screenshot 2024-04-12 191727](https://github.com/user-attachments/assets/f9e02108-d061-42bf-b809-fd89f875bd0f)
+![Screenshot 2024-04-12 191727](https://github.com/user-attachments/assets/71647c3c-4559-4fca-ab72-3e4ea5c17fd6)
