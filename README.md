@@ -1,4 +1,5 @@
 
+
 # AWS CloudFront with Multiple Origins and Failover
 
 This project demonstrates the use of **Amazon CloudFront** to deliver content from multiple origins with failover capabilities. The architecture is designed to ensure high availability and fault tolerance, with requests automatically routed to a backup origin in case the primary origin fails.
@@ -6,6 +7,8 @@ This project demonstrates the use of **Amazon CloudFront** to deliver content fr
 ## Project Overview
 
 In this project, I have configured an **Amazon CloudFront distribution** with multiple origins to enhance content delivery reliability. The key feature of this setup is failover between the primary and secondary origin, ensuring continuous availability of web assets.
+
+This project was completed as part of the **Digital Cloud Training** bootcamp, where I gained hands-on experience in designing and implementing cloud architectures using AWS services.
 
 ### Key Features
 - **Multiple Origins**: Two origins were used in the setup, an **S3 bucket** and an **EC2 instance**. CloudFront intelligently routes traffic to the primary origin, while the secondary origin acts as a backup.
@@ -19,9 +22,10 @@ The solution includes:
 1. **Amazon CloudFront**: Acts as the content delivery network (CDN) with multiple origins.
 2. **Amazon S3**: Serves as the primary origin for delivering static assets.
 3. **Amazon EC2**: Configured as the secondary origin to host dynamic content.
-4. **Failover Configuration**: If the primary origin (S3) is unavailable, CloudFront automatically routes requests to the secondary origin (EC2).
+4. **Failover Configuration**: If the primary or![Screenshot 2024-04-12 191727](https://github.com/user-attachments/assets/e93cf659-c3b0-41cb-8be7-89890af4dca7)
+igin (S3) is unavailable, CloudFront automatically routes requests to the secondary origin (EC2).
 
-![Architecture Diagram]
+
 
 ## AWS Services Used
 - **Amazon CloudFront**: For delivering content globally with low latency.
@@ -46,4 +50,4 @@ The solution includes:
 ## Conclusion
 
 This project showcases the implementation of **Amazon CloudFront** with a resilient multi-origin architecture, ensuring high availability and optimal content delivery performance.
-![Screenshot 2024-04-12 191727](https://github.com/user-attachments/assets/da69e446-85c4-408a-bc58-da0a3c781947)
+![Uploading Screenshot 2024-04-12 191727.png…]()
